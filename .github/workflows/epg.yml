@@ -2,8 +2,9 @@ name: Atualizar EPG
 
 on:
   schedule:
-    - cron: '0 3 * * *'  # 00:00 Brasília
-    - cron: '0 15 * * *' # 12:00 Brasília
+    - cron: '0 3 * * *'    # 00:00 horário de Brasília
+    - cron: '0 15 * * *'   # 12:00 horário de Brasília
+    - cron: '35 17 * * *'  # 14:35 horário de Brasília
   workflow_dispatch:
 
 jobs:
